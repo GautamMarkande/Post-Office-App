@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Office App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main" id="main">
+        <div class="left">
+            <h2>Post Office Application</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eligendi ab optio, debitis nihil dolores cumque modi dicta sit inventore vero minima rem nostrum corporis, porro quod? Dignissimos, labore porro.</p>
+            <img src="—Pngtree—postman brother_2775539.png" alt="logo">
+        </div>
+        <div class="right">
+            <h1>Your ip address is <span id="ip">127.168.16.1</span></h1>
+            <div id="btn">Get Started</div>
+        </div>
+    </div>
+    <div class="information_page" id="information_page">
+        <div class="info_container">
+            <div class="ip-address" id="ipAddress">Your ip Address is:127.168.13.1</div>
+            <div class="informations">
+                <div class="info">
+                    <div>Lat: <p id="latitude">21.455</p></div>
+                    <div>Long: <p id="longitude">21.455</p></div>
+                </div>
+                <div class="info">
+                    <div>City: <p id="city">Bhilai</p></div>
+                    <div>Region: <p id="region">Chhattisgarh</p></div>
+                </div>
+                <div class="info">
+                    <div>Organisation: <p id="organization">Foxtel</p></div>
+                    <div> Hostname: <p id="hostname">Dns Google</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="map">
+            <h1>Your Current Location</h1>
+            <iframe id="iframeMap" src="https://maps.google.com/maps?q=21.221399307250977, 81.37020111083984&z=15&output=embed"  frameborder="0" style="border:0"></iframe>
+        </div>
+        <div class="info_container">
+            <div class="Otherinfo_header">Some Other Information</div>
+            <div class="informations">
+                <div class="OtherInfo">
+                    <div>Time Zone: <p id="timezone">Asia?kolkata</p></div>
+                    <div>Date and Time: <P id="dateTime">10 jan 200 5:00AM</P></div>
+                    <div>Pincode: <p id="pincode">490023</p></div>
+                    <div>Message: <p id="message">Number of Pincode(s) found</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="grid_and_search_container">
+            <div class="gird_header">Post Office Near You</div>
+            <input type="text" placeholder="Search By Name" id="input">
+            <div class="grid" id="grid">
+                <!-- <div class="card">
+                    <h2>Name: <p>Bhilai</p></h2>
+                    <h2>Brach type: <p>supela</p></h2>
+                    <h2>Delivery Status: <p>Pending</p></h2>
+                    <h2>District: <p>Durg</p></h2>
+                    <h2>Division: <p>Sector 1</p></h2>
+                </div> -->
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
